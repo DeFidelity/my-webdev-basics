@@ -1,0 +1,10 @@
+{% extends "basic_app/school_details.html"%}
+{% block bodyblock%}
+  <div class="jumbotron">
+    <h1>Here we have details of each school </h1>
+    <h2>School details:</h2>
+    <p>Name: {{school_details.name}}</p>
+    <p>Principal: {{school_details.principal}}</p>
+    <p>Location: {{school_details.location}}</p>
+  </div>
+{% endblock %}

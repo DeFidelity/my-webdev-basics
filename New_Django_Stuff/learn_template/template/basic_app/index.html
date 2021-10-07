@@ -1,0 +1,10 @@
+{% extends "basic_app/base.html" %}
+{%load my_extras %}
+<!DOCTYPE html>
+
+  {% block body_block%}
+    <h1>This is Home Page</h1>
+    <h2>i hope you're understanding</h2>
+    <h1>{{ text|cut:'how' }}</h1>
+    <h1>{{ number|add:'245' }}</h1>
+  {% endblock %}

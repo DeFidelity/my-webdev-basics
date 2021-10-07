@@ -1,0 +1,64 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+body {
+  padding-top: 3.5rem;
+}
+body {
+    padding: 0% auto;
+    margin: 10px
+
+/************Aout page style************/
+     #about-page #home-image img{
+    width: 70%;
+    float: left;
+    margin-bottom: 20px;
+}
+#about-page #profile-info {
+   float:right; 
+    width: 20%;
+    margin: 5px
+    
+    
+}
+#about-page .description {
+    clear: both;
+    }
+        
+/**************contact page style***************/
+    
+#contact #form{
+width: 500px;
+padding: 10px 10px 10px 10px;
+ margin:0 auto  ;
+    box-shadow:  0px 9px 13px 5px
+    
+    
+    
+margin: 0border: 
+}
+#contact .page-heading{
+   text-align: center;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    
+}
+#contact #form input{
+    width: 100%;
+    border-radus:5px;
+    height: 20px;
+    background:#D6D6D6;
+    
+}
+
+#contact #form #message {
+    
+    width: 100%;
+    border-radus: 5px;
+    background:#D6D6D6;
+    
+}
+#contactn#form #submit {
+  height: 30px;
+    background: rgb(59, 118, 135);
+}  
+    
+}

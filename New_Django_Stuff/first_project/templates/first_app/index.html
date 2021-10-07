@@ -1,0 +1,31 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>The Django</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}"/>
+  </head>
+  <body>
+    <h1>Hi, this is the official list of out gamers</h1>
+    <h2>Right there in the table below</h2>
+    {% if gamers %}
+    <div class="tablediv">
+      <table>
+        <thead>
+          <th>Player</th>
+          <th>Name</th>
+          <th>Score</th>
+        </thead>
+        {% for gam in gamers %}
+        <tr>
+          <td>{{ gam.player }}</td>
+          <td>{{ gam.name }}</td>
+          <td>{{ gam.score }}</td>
+        </tr>
+        {% endfor %}
+      </table>
+    </div>
+    {% endif %}
+  </body>
+</html>
